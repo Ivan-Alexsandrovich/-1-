@@ -36,12 +36,12 @@ public class Main {
             System.out.println("его место в университете.");
         }
         if (personAge > 24) {
-            System.out.println("пора ходить на работу");
+            System.out.println("нужно идти на работу");
         }
         System.out.println();
 
         int child = 4;
-        if (child < 5) {
+        if (child <= 5) {
             System.out.println("нельзя кататься");
         }
         if (child > 5 && child < 14) {
