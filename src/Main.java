@@ -40,14 +40,14 @@ public class Main {
         }
         System.out.println();
 
-        int child = 4;
+        int child = 5;
         if (child <= 5) {
             System.out.println("нельзя кататься");
         }
-        if (child > 5 && child < 14) {
+        if (child >= 5 && child < 14) {
             System.out.println("можно,только с взрослым");
         }
-        if (child > 14) {
+        if (child >= 14) {
             System.out.println("можна кататься самостоятельно");
         }
         System.out.println();
